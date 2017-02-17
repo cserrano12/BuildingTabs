@@ -1,6 +1,35 @@
-.nav-tab {
-background-color: lightblue;
-border-style: solid;
+body {
+  background-color: green;
+}
+div.nav-tab {
+      background-color: lightblue;
+      color: white;
+      border-style: solid;
+      text-align: center;
+      text-decoration: none;
+}
+div.nav-tab:hover {
+      background-color: yellow;
+      text-decoration: none;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
 
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
 
+/* mouse over link */
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
