@@ -14,9 +14,9 @@ div.nav-tab:hover {
 .navigation[href$=".html"] {
     text-decoration: none;
     font-family: arial, helvetica, sans-serif;
+}
 
 /*
-}
 a:link, a:visited, a:active  {
     color: black;
     text-decoration: none;
